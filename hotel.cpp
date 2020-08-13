@@ -133,7 +133,7 @@ void HotelMgnt::guestSummaryReport(){
  
 } 
  
-//hotel management reservation of room 
+//reservation of room 
 void HotelMgnt::checkIn() 
 { 
 int i,found=0,rno; 
@@ -188,7 +188,7 @@ cout<<"\n Customer Checked-in Successfully..";
 } 
  
  
-//hotel management shows available rooms 
+//shows available rooms 
 void HotelMgnt::getAvailRoom() 
 { 
 int i,found=0; 
@@ -208,7 +208,7 @@ cout<<"\nAll rooms are reserved";
 } 
  
  
-//hotel management shows all persons that have booked room 
+//shows all persons that have booked room 
 void HotelMgnt::searchCustomer(char *pname) 
 { 
 int i,found=0; 
@@ -232,7 +232,7 @@ cout<<"\nPerson not found.";
 } 
  
  
-//hotel managemt generates the bill of the expenses 
+//generates the bill of the expenses 
 void HotelMgnt::checkOut(int roomNum) 
 { 
 int i,found=0,days,rno; 
@@ -284,7 +284,6 @@ cout<<"\n\nEnter Option: ";
 cin>>opt; 
  
  
-//switch statement 
 switch(opt) 
 { 
 case 1: 
