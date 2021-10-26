@@ -54,7 +54,7 @@ Room Room::addRoom(int rno)
   cin>>room.rent; 
   room.status=0; 
 
-  cout<<"\n Room Added Successfully!"; 
+  cout<<"\n Room Added Successfully!!"; 
 
   return room; 
 } 
@@ -125,7 +125,7 @@ void HotelMgnt::guestSummaryReport(){
     cout<<"\n Room Number : "<<rooms[i].roomNumber; 
     cout<<"\n Address (only city) : "<<rooms[i].cust.address; 
     cout<<"\n Phone : "<<rooms[i].cust.phone; 
-    cout<<"\n---*-----*----*----*---*----*----*-----";	 
+    cout<<"\n---*-----*----*----*---*----*----*-----\n";	 
     } 
 
   } 
@@ -139,7 +139,7 @@ void HotelMgnt::checkIn()
 int i,found=0,rno; 
  
 class Room room; 
-cout<<"\nEnter Room number : "; 
+cout<<"\nEnter Room number: "; 
 cin>>rno; 
 for(i=0;i<count;i++) 
 { 
